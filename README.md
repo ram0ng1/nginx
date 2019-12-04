@@ -20,10 +20,18 @@ Em seguida entre com suas configurações citadas no arquivo "config.conf",
 
 Feche e salve.
 
-Reinicie o Nginx com o comando:
+
+
+## Publicando o site
+```
+sudo ln -s /etc/nginx/sites-available/config.conf /etc/nginx/sites-enabled/
+```
+
+
+Depois reinicie o Nginx com o comando:
 
 ```
 service nginx restart
 ```
 
-
+Feito!
