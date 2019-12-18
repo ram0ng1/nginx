@@ -15,7 +15,7 @@ sudo apt install nginx
 ```
 sudo nano /etc/nginx/sites-available/config.conf
 ```
-Em seguida entre com suas configurações citadas no arquivo "[config.conf](https://raw.githubusercontent.com/tiuram0n/nginx/master/config.conf)",
+Em seguida entre com suas configurações citadas no arquivo "[config.conf](https://github.com/tiuram0n/nginx/blob/master/config.conf)",
 
 Feche e salve.
 
