@@ -50,7 +50,7 @@ Combine tudo para o nginx:
 
 A configuração deve-se paracer como abaixo:
 
-    `server {
+    server {
         listen 443;
 
         ssl on;
@@ -62,8 +62,11 @@ A configuração deve-se paracer como abaixo:
 
         # ...
 
-    }`
+    }
 
 6. Reinicie o nginx.
 
 `service nginx restart`
+
+### Pronto!
+Se você seguiu todos os passos corretamente, você deve ter instalado o certificado ssl com sucesso.
