@@ -1,7 +1,7 @@
 Configurando um certificado SSL da Comodo (Positive SSL)
 =================================
 
-Eu uso o certificado SSL da [Superdominios.org](https://www.superdominios.org/home/cart.php?a=confproduct&i=2) revende certificados da [Comodo](https://www.comodo.com/) por preços à partir de R$39.99 Anuais.
+Eu uso o certificado SSL da [Superdominios.org](https://www.superdominios.org/home/cart.php?a=confproduct&i=2) que revende certificados da [Comodo](https://www.comodo.com/) por preços à partir de R$39.99 Anuais.
 
 Essas são as etapas que eu passei para razlizar a instalação do certificado
 
