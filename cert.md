@@ -34,7 +34,7 @@ Combine tudo para o nginx:
 
 1. Combine os arquivos `.crt` acima em um pacote (a ordem é importante aqui):
 
-    cat www_exemplo_com.crt COMODORSADomainValidationSecureServerCA.crt  COMODORSAAddTrustCA.crt AddTrustExternalCARoot.crt > ssl-bundle.crt
+    `cat www_exemplo_com.crt COMODORSADomainValidationSecureServerCA.crt  COMODORSAAddTrustCA.crt AddTrustExternalCARoot.crt > ssl-bundle.crt`
 
 2. Armazene o pacote onde quer que o nginx o encontre (Opcional):
 
