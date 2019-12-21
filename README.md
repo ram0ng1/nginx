@@ -13,7 +13,7 @@ sudo apt install nginx
 ## Para criar um novo arquivo de configuração para o nginx, execute:
 
 ```
-sudo nano /etc/nginx/sites-available/config.conf
+sudo nano /etc/nginx/sites-available/dominio.com
 ```
 Em seguida entre com suas configurações citadas no arquivo '[config.conf](https://github.com/tiuram0n/nginx/blob/master/config.conf)',
 
@@ -24,7 +24,7 @@ Feche e salve.
 ## Publicando o site:
 (O comando abaixo cria uma pasta virtual com o nome "config" em "/etc/nginx/sites-enabled/ )
 ```
-sudo ln -s /etc/nginx/sites-available/config.conf /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/dominio.com /etc/nginx/sites-enabled/
 ```
 
 
